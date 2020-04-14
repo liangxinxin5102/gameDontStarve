@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="ly_weapon.tex" />
+	<Elements>
+		<Element name="ly_chazi001.tex" u1="0.001" u2="0.10446875" v2="0.999" v1="0.893578125" variant="" />
+		<Element name="ly_chazi002.tex" u1="0.10646875" u2="0.21775" v2="0.999" v1="0.8838125" variant="" />
+		<Element name="ly_chazi003.tex" u1="0.001" u2="0.1161875" v2="0.8818125" v1="0.766625" variant="" />
+		<Element name="ly_chazi004.tex" u1="0.1181875" u2="0.233375" v2="0.8818125" v1="0.766625" variant="" />
+		<Element name="ly_chazi005.tex" u1="0.21975" u2="0.327125" v2="0.999" v1="0.893578125" variant="" />
+		<Element name="ly_chazi006.tex" u1="0.329125" u2="0.438453125" v2="0.999" v1="0.893578125" variant="" />
+		<Element name="ly_chazi007.tex" u1="0.235375" u2="0.34665625" v2="0.891578125" v1="0.780296875" variant="" />
+		<Element name="ly_chazi008.tex" u1="0.34865625" u2="0.457984375" v2="0.891578125" v1="0.784203125" variant="" />
+		<Element name="ly_rongguang001.tex" u1="0.001" u2="0.08884375" v2="0.764625" v1="0.67678125" variant="" />
+		<Element name="ly_rongguang002.tex" u1="0.001" u2="0.098609375" v2="0.67478125" v1="0.577171875" variant="" />
+		<Element name="ly_rongguang003.tex" u1="0.100609375" u2="0.202125" v2="0.764625" v1="0.663109375" variant="" />
+		<Element name="ly_rongguang004.tex" u1="0.100609375" u2="0.204078125" v2="0.661109375" v1="0.55959375" variant="" />
+		<Element name="ly_rongguang005.tex" u1="0.235375" u2="0.35446875" v2="0.778296875" v1="0.659203125" variant="" />
+		<Element name="ly_rongguang006.tex" u1="0.206078125" u2="0.321265625" v2="0.657203125" v1="0.545921875" variant="" />
+		<Element name="ly_rongguang007.tex" u1="0.35646875" u2="0.477515625" v2="0.782203125" v1="0.66896875" variant="" />
+		<Element name="ly_rongguang008.tex" u1="0.323265625" u2="0.438453125" v2="0.657203125" v1="0.549828125" variant="" />
+		<Element name="ly_taidao001.tex" u1="0.440453125" u2="0.54196875" v2="0.999" v1="0.905296875" variant="" />
+		<Element name="ly_taidao002.tex" u1="0.54396875" u2="0.645484375" v2="0.999" v1="0.901390625" variant="" />
+		<Element name="ly_taidao003.tex" u1="0.459984375" u2="0.5693125" v2="0.899390625" v1="0.792015625" variant="" />
+		<Element name="ly_taidao004.tex" u1="0.647484375" u2="0.762671875" v2="0.999" v1="0.8838125" variant="" />
+		<Element name="ly_taidao005.tex" u1="0.479515625" u2="0.577125" v2="0.790015625" v1="0.678734375" variant="" />
+		<Element name="ly_taidao006.tex" u1="0.579125" u2="0.676734375" v2="0.8818125" v1="0.77053125" variant="" />
+		<Element name="ly_taidao007.tex" u1="0.764671875" u2="0.8661875" v2="0.999" v1="0.891625" variant="" />
+		<Element name="ly_taidao008.tex" u1="0.440453125" u2="0.54196875" v2="0.66696875" v1="0.561546875" variant="" />
+		<Element name="ly_xinshouwuqi001.tex" u1="0.678734375" u2="0.764625" v2="0.8818125" v1="0.7900625" variant="" />
+		<Element name="ly_xinshouwuqi002.tex" u1="0.579125" u2="0.6630625" v2="0.76853125" v1="0.66896875" variant="" />
+		<Element name="ly_xinshouwuqi003.tex" u1="0.8681875" u2="0.942359375" v2="0.999" v1="0.893578125" variant="" />
+		<Element name="ly_xinshouwuqi004.tex" u1="0.54396875" u2="0.629859375" v2="0.66696875" v1="0.569359375" variant="" />
+		<Element name="ly_xinshouwuqi005.tex" u1="0.766625" u2="0.844703125" v2="0.889625" v1="0.78225" variant="" />
+		<Element name="ly_xinshouwuqi006.tex" u1="0.6650625" u2="0.75290625" v2="0.76853125" v1="0.66896875" variant="" />
+		<Element name="ly_xinshouwuqi007.tex" u1="0.846703125" u2="0.930640625" v2="0.889625" v1="0.78615625" variant="" />
+		<Element name="ly_xinshouwuqi008.tex" u1="0.631859375" u2="0.723609375" v2="0.66696875" v1="0.569359375" variant="" />
+		<Element name="ly_xinshouwuqi009.tex" u1="0.75490625" u2="0.84665625" v2="0.78025" v1="0.682640625" variant="" />
+		<Element name="ly_xinshouwuqi010.tex" u1="0.725609375" u2="0.80759375" v2="0.66696875" v1="0.5713125" variant="" />
+		<Element name="ly_xinshouwuqi011.tex" u1="0.84865625" u2="0.926734375" v2="0.78415625" v1="0.69240625" variant="" />
+		<Element name="ly_xinshouwuqi012.tex" u1="0.80959375" u2="0.90134375" v2="0.680640625" v1="0.577171875" variant="" />
+		<Element name="ly_zhenkong001.tex" u1="0.001" u2="0.11228125" v2="0.543921875" v1="0.4306875" variant="" />
+		<Element name="ly_zhenkong002.tex" u1="0.11428125" u2="0.23728125" v2="0.543921875" v1="0.420921875" variant="" />
+		<Element name="ly_zhenkong003.tex" u1="0.001" u2="0.122046875" v2="0.418921875" v1="0.297875" variant="" />
+		<Element name="ly_zhenkong004.tex" u1="0.23928125" u2="0.358375" v2="0.543921875" v1="0.422875" variant="" />
+		<Element name="ly_zhenkong005.tex" u1="0.001" u2="0.114234375" v2="0.295875" v1="0.178734375" variant="" />
+		<Element name="ly_zhenkong006.tex" u1="0.124046875" u2="0.239234375" v2="0.418921875" v1="0.3135" variant="" />
+		<Element name="ly_zhenkong007.tex" u1="0.124046875" u2="0.2411875" v2="0.3115" v1="0.194359375" variant="" />
+		<Element name="ly_zhenkong008.tex" u1="0.360375" u2="0.47165625" v2="0.547828125" v1="0.4306875" variant="" />
+	</Elements>
+</Atlas>

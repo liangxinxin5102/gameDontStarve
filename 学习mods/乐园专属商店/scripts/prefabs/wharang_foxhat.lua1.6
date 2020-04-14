@@ -1,0 +1,245 @@
+local assets=
+{
+    Asset("ANIM", "anim/wharang_foxhat.zip"),
+	Asset("ANIM", "anim/wharang_swap_foxhat.zip"),
+	Asset("ATLAS", "images/inventoryimages/wharang_foxhat.xml")
+}
+
+local function OnBlocked(owner) 
+    owner.SoundEmitter:PlaySound("dontstarve/wilson/hit_armour")
+end
+
+local function consume(inst, owner)
+	-- if not inst.broken and inst.shield then
+		-- inst.components.fueled:DoDelta(-20000)
+	-- end
+	-- if inst.broken and inst.shield then
+		-- inst.components.fueled:DoDelta(0)
+	-- end
+end
+
+local function StopUsingMask(inst, data)
+	local foxhat = inst.components.inventory ~= nil and inst.components.inventory:GetEquippedItem(EQUIPSLOTS.HEAD) or nil
+	if foxhat ~= nil and data.statename ~= "hide" then
+		inst.shield = false
+		foxhat.components.armor:SetAbsorption(.97) --修改护甲为0.99
+		foxhat.components.useableitem:StopUsingItem()
+    else
+		foxhat.components.armor:SetAbsorption(1)
+    end
+end
+
+local function OnEquipMaks(inst, owner)	
+	-- if inst.components.fueled then
+		-- if inst.components.fueled:GetPercent() <= 0 then
+			-- inst.broken = true
+			-- inst.components.fueled:StopConsuming()    
+		-- else 
+			-- inst.components.fueled:StartConsuming() 
+		-- end
+	-- end
+	owner.AnimState:OverrideSymbol("swap_hat", "wharang_swap_foxhat", "swap_hat")
+	owner.AnimState:Show("HAT")
+	owner.AnimState:Hide("HAT_HAIR")
+	owner.AnimState:Show("HAIR_NOHAT")
+	owner.AnimState:Show("HAIR")
+	
+	-- inst.expfn = function(attacked, data)
+		-- local damagedur1 = 0.2
+		-- local damagedur2 = 0.5
+		-- local damagedur3 = 0.7
+		-- local damagedur4 = 1
+		
+		-- if not inst.shield then
+			-- if data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 10 then
+				-- inst.components.fueled:DoDelta(-50000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 10 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 20 then
+				-- inst.components.fueled:DoDelta(-80000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 20 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 30 then
+				-- inst.components.fueled:DoDelta(-110000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 30 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 40 then
+				-- inst.components.fueled:DoDelta(-140000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 40 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 50 then
+				-- inst.components.fueled:DoDelta(-170000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 50 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 60 then
+				-- inst.components.fueled:DoDelta(-300000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 60 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 70 then
+				-- inst.components.fueled:DoDelta(-330000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 70 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 60 then
+				-- inst.components.fueled:DoDelta(-360000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 70 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 80 then
+				-- inst.components.fueled:DoDelta(-390000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 80 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 90 then
+				-- inst.components.fueled:DoDelta(-450000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 90 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 100 then
+				-- inst.components.fueled:DoDelta(-600000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 100 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 100 then
+				-- inst.components.fueled:DoDelta(-850000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 100 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 150 then
+				-- inst.components.fueled:DoDelta(-1000000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 150 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 200 then
+				-- inst.components.fueled:DoDelta(-1400000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 200 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 250 then
+				-- inst.components.fueled:DoDelta(-1800000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 250 and data.attacker.components.combat and data.attacker.components.combat.defaultdamage <= 300 then
+				-- inst.components.fueled:DoDelta(-2600000)
+			-- elseif data and data.attacker and data.attacker.components.combat and data.attacker.components.combat.defaultdamage > 300 then
+				-- inst.components.fueled:DoDelta(-3000000)
+			-- end
+
+			-- if data and data.attacker and math.random() < damagedur1 then
+				-- inst.components.fueled:DoDelta(-50000)
+			-- elseif data and data.attacker and math.random() < damagedur2 then
+				-- inst.components.fueled:DoDelta(-30000)
+			-- elseif data and data.attacker and math.random() < damagedur3 then
+				-- inst.components.fueled:DoDelta(-10000)
+			-- end
+		-- end
+	-- end
+	-- inst:ListenForEvent("attacked", inst.expfn, owner)
+	inst:ListenForEvent("blocked", OnBlocked, owner)
+	inst:ListenForEvent("newstate", StopUsingMask, owner) 
+
+	if owner ~= nil and owner.components.sanity ~= nil then
+		owner.components.sanity.neg_aura_absorb = TUNING.ARMOR_HIVEHAT_SANITY_ABSORPTION
+	end
+end
+
+	
+local function OnUnequipMak(inst, owner)
+	inst.components.fueled:StopConsuming()
+	owner.AnimState:Hide("HAT")
+	owner.AnimState:Hide("HAT_HAIR")
+	owner.AnimState:Show("HAIR_NOHAT")
+	owner.AnimState:Show("HAIR")
+	if owner:HasTag("player") then
+		owner.AnimState:Show("HEAD")
+		owner.AnimState:Hide("HEAD_HAIR")
+	end
+	inst:RemoveEventCallback("blocked", OnBlocked, owner)
+	inst:RemoveEventCallback("newstate", StopUsingMask, owner)
+	
+	if owner ~= nil and owner.components.sanity ~= nil then
+		owner.components.sanity.neg_aura_absorb = 0
+	end
+end
+
+local function on_shield(inst, owner)
+	if inst.shield and not inst.broken then
+		inst.components.talker:Say("[狐仙隐]\n防御100%")
+		inst.components.armor:InitIndestructible(1)
+		-- inst.consume = inst:DoPeriodicTask(1, function() consume(inst, owner) end)
+	elseif inst.shield and inst.broken then
+		inst.components.talker:Say("[狐仙隐·消失]\n防御(60)")
+		inst.components.armor:InitIndestructible(0.6)
+		-- if inst.consume then inst.consume:Cancel() inst.consume = nil end
+	end 
+end
+local function OnUseMask(inst)
+	inst.shield = true
+	on_shield(inst)
+	local owner = inst.components.inventoryitem.owner
+	if owner then
+		owner.sg:GoToState("hide")
+		owner.SoundEmitter:PlaySound("dontstarve/wilson/equip_item_gold")
+	end
+end
+local function OffUseMask(inst)
+	-- if inst.consume then inst.consume:Cancel() inst.consume = nil end
+	
+	if inst.shield then
+		inst.shield = false
+		-- if inst.consume then inst.consume:Cancel() inst.consume = nil end
+	end 
+end
+
+-- local function OnDurability(inst, data)
+	-- inst.broken = true
+	-- inst.components.fueled:StopConsuming()     
+	
+	-- if inst.consume then inst.consume:Cancel() inst.consume = nil end
+-- end
+
+-- local function TakeItem(inst, item, data)
+
+	-- inst.components.fueled:DoDelta(15000000)
+	-- SpawnPrefab("splash").Transform:SetPosition(inst:GetPosition():Get())    
+	
+	-- if inst.broken then
+		-- inst.broken = false 
+	-- end
+-- end
+
+local function OnMaskDrop(inst, owner)
+    if inst.remove_task then
+		inst.remove_task:Cancel()
+		inst.remove_task = nil
+	end	
+end
+
+local function fn(Sim)
+    local inst = CreateEntity()
+
+    inst.entity:AddTransform()
+    inst.entity:AddAnimState()
+    inst.entity:AddMiniMapEntity()
+    inst.entity:AddNetwork()
+	
+	MakeInventoryPhysics(inst)
+
+	inst.AnimState:SetBank("wharang_foxhat")
+	inst.AnimState:SetBuild("wharang_foxhat")
+	inst.AnimState:PlayAnimation("anim")
+	
+	inst:AddTag("hat")
+	
+	inst:AddComponent("talker")
+	inst.components.talker.fontsize = 20
+	inst.components.talker.font = TALKINGFONT
+	inst.components.talker.colour = Vector3(1, 0.8, 0.95, 1)
+	inst.components.talker.offset = Vector3(0,-500,0)
+	inst.components.talker.symbol = "swap_object"
+	
+	inst.entity:SetPristine()
+	
+    if not TheWorld.ismastersim then
+        return inst
+    end
+
+	inst:AddComponent("inspectable")
+
+	inst:AddComponent("tradable")
+
+	inst:AddComponent("armor")
+	inst.components.armor:InitIndestructible(0.6)
+
+	inst:AddComponent("equippable")
+	inst.components.equippable.equipslot = EQUIPSLOTS.HEAD
+
+	inst:AddComponent("useableitem")
+	inst.components.useableitem:SetOnUseFn(OnUseMask)
+	inst.components.useableitem:SetOnStopUseFn(OffUseMask)
+	inst.components.equippable:SetOnEquip(OnEquipMaks)
+	inst.components.equippable:SetOnUnequip(OnUnequipMak)
+
+	inst:AddComponent("inventoryitem")
+	inst.components.inventoryitem.atlasname = "images/inventoryimages/wharang_foxhat.xml"
+	inst.components.inventoryitem.foleysound = "dontstarve/movement/foley/bushhat"
+	inst.components.inventoryitem.onpickupfn = OnMaskDrop
+	inst.components.inventoryitem.onputininventoryfn = OnMaskDrop
+	
+	-- inst:AddComponent("fueled")
+	-- inst.components.fueled.fueltype = "ROCKS"
+	-- inst.components.fueled:InitializeFuelLevel(30000000)
+	-- inst.components.fueled:SetDepletedFn(OnDurability)
+	-- inst.components.fueled.ontakefuelfn = TakeItem
+	-- inst.components.fueled.accepting = true
+	-- inst.components.fueled:StartConsuming()    
+
+	inst:AddComponent("waterproofer")
+	inst.components.waterproofer:SetEffectiveness(.1)
+  
+    return inst
+end
+
+return Prefab( "common/inventory/wharang_foxhat", fn, assets ) 

@@ -1,0 +1,256 @@
+		goodsinfo =
+    {
+		[1] =ziyuan,
+		[2] =fight,
+		[3] =cloth,
+		[4] =shiwu,
+		
+    }
+	
+--以下内容已转移到modinfo中编辑，可做参考
+
+--[i]={"商品名",价格}
+
+	-- ziyuan = {		
+	
+	-- {"rocks",30},--岩石
+	-- {"cutgrass",30},--草 
+	-- {"twigs",20},--树枝 
+	-- {"log",40},--木头 
+	-- {"charcoal",60},--木炭 
+	-- {"ash",10},--灰 
+	-- {"cutreeds",100},--采下的芦苇 
+	-- {"lightbulb",90},--荧光果 
+	-- {"petals",20},--花瓣 
+	-- {"petals_evil",40},--噩梦花瓣 
+	-- {"pinecone",20},--松果 
+	-- {"foliage",10},--叶子 
+	-- {"cutlichen",20},--摘下的苔藓 
+	-- {"wormlight",230},--虫子果 
+	-- {"lureplantbulb",530},--食人花种子 
+	-- {"flint",35},--燧石 
+	-- {"nitre",35},--硝石 
+	-- {"redgem",600},--红宝石 
+	-- {"bluegem",600},--蓝宝石 
+	-- {"purplegem",1200},--紫宝石 
+	-- {"greengem",3000},--绿宝石 
+	-- {"orangegem",2000},--橙宝石 
+	-- {"yellowgem",2000},--黄宝石 
+	-- -- {"rope",100},--绳子 
+	-- -- {"boards",460},--木板 
+	-- -- {"cutstone",130},--石砖 
+	-- -- {"transistor",},--机器原件
+	-- -- {"papyrus",},--纸 
+	-- {"houndstooth",250},--犬牙 
+	-- {"pigskin",260},--猪皮
+	-- {"manrabbit_tail",360},--兔人尾巴 
+	-- {"beardhair",320},--胡子 
+	-- {"beefalowool",99},--牛毛 
+	-- {"honeycomb",600},--蜂巢 
+	-- {"stinger",10},--蜂刺 
+	-- {"feather_crow",160},--乌鸦羽毛 
+	-- {"feather_robin",160},--红雀羽毛 
+	-- {"feather_robin_winter",320},--雪雀羽毛 
+	-- {"horn",500},--牛角 
+	-- {"slurtleslime",20},--蜗牛龟粘液 
+	-- {"slurtle_shellpieces",20},--蜗牛龟壳片 
+	-- {"butterflywings",360},--蝴蝶翅膀
+	-- {"glommerwings",1000},--格罗门翅膀 
+	-- --{"glommerflower",},--格罗门花 
+	-- {"glommerfuel",100},--格罗门燃料 
+	-- -- {"boneshard",320},--硬骨头 
+	-- {"ice",30},--冰 
+	-- {"goldnugget",100},--金子
+	-- {"nightmarefuel",500},--噩梦燃料
+	-- {"moonrocknugget",500},--月之石
+	-- {"livinglog",600},--活木
+			-- -- [001] = {"rocks", 60000,10},--复活护符
+			-- -- [002] = {"armorwood",1000},
+			-- -- [003] = {"wathgrithrhat",100},
+			-- -- [004] = {"spear_wathgrithr",120},
+			-- -- [005] = {"walrus_tusk",1000},
+
+		-- }
+		-- fight = {
+			-- {"wathgrithrhat",300},--女武神帽	
+			-- {"boomerang",360},--回旋镖 
+			-- {"tentaclespike",430},--狼牙棒 
+			-- {"blowdart_pipe",233},--吹箭 
+			-- {"blowdart_sleep",322},--麻醉吹箭 
+			-- {"blowdart_fire",322},--燃烧吹箭 
+			-- {"hambat",460},--火腿短棍 
+			-- {"footballhat",300},--猪皮帽 
+			-- {"nightsword",1230},--暗影剑 
+			-- {"batbat",1600},--蝙蝠棒 
+			-- {"ruins_bat",5000},--远古短棒 
+			-- {"spear_wathgrithr",300},--瓦丝格雷斯矛 
+			-- {"armormarble",1600},--大理石盔甲 
+			-- {"armor_sanity",1700},--夜魔盔甲 
+			-- {"armorsnurtleshell",5000},--蜗牛龟盔甲 
+			-- {"armorruins",6000},--远古盔甲 
+			-- {"ruinshat",6500},--远古盔甲 
+			-- {"gunpowder",400},--火药 
+			-- -- [001] = {"amulet", 500},
+			-- -- [002] = {"silk",30},
+			-- -- [003] = {"goldnugget",100},
+			-- -- [004] = {"cutreeds",100},
+		-- }
+		-- cloth = {
+			-- {"heatrock",260},--保温石
+			-- {"strawhat",240},--草帽 
+			-- {"flowerhat",360},--花环 
+			-- {"beefalohat",560},--牛毛帽 
+			-- {"featherhat",720},--羽毛帽 
+			-- {"tophat",600},--高礼帽 
+			-- {"earmuffshat",200},--兔耳罩 
+			-- {"winterhat",340},--冬帽 
+			-- {"minerhat",800},--矿工帽 
+			-- {"spiderhat",1000},--蜘蛛帽 
+			-- {"beehat",1888},--蜂帽 
+			-- {"walrushat",2000},--海象帽 
+			-- {"slurtlehat",5000},--蜗牛帽子 
+			-- {"bushhat",450},--丛林帽 
+			-- {"rainhat",420},--防雨帽 
+			-- {"icehat",800},--冰帽 
+			-- {"watermelonhat",666},--西瓜帽 
+			-- {"catcoonhat",666},--浣熊帽 
+			-- {"sweatervest",630},--小巧背心 
+			-- {"trunkvest_summer",1000},--夏日背心 
+			-- {"trunkvest_winter",1000},--寒冬背心 
+			-- {"armorslurper",1600},--饥饿腰带 
+			-- {"raincoat",1600},--雨衣 
+			-- {"molehat",2140},--鼹鼠帽 
+			-- {"armordragonfly",3600},--蜻蜓盔甲 
+			-- {"beargervest",2000},--熊背心 
+			-- {"eyebrellahat",2600},--眼睛帽 
+			-- {"hawaiianshirt",1000},--夏威夷衬衫 
+			
+		-- }
+		-- shiwu = {
+		-- {"monstermeat",60},
+		-- {"spoiled_food",10},--腐烂食物 
+		-- {"monstermeat_dried",80},--干疯肉
+		-- {"red_cap",88},--采摘的红蘑菇 
+		-- {"red_cap_cooked",88},--煮熟的红蘑菇 
+		-- {"durian",150},--榴莲 
+		-- {"rottenegg",360},--烂鸡蛋 
+		-- {"durian_cooked",150},--熟榴莲 
+		-- {"poop",100},--便便 
+		-- {"guano",200},--鸟粪 
+
+		-- }
+		
+
+	---{品名,数量}
+	-- prizelist = {
+	
+			-- {"rocks",20},--岩石
+			-- {"cutgrass",10},--草 
+			-- {"twigs",10},--树枝 
+			-- {"log",10},--木头 
+			-- {"charcoal",10},--木炭 
+			-- {"ash",30},--灰 
+			-- {"cutreeds",5},--采下的芦苇 
+			-- {"lightbulb",10},--荧光果 
+			-- {"petals",5},--花瓣 
+			-- {"petals_evil",3},--噩梦花瓣 
+			-- {"pinecone",60},--松果 
+			-- {"foliage",10},--叶子 
+			-- {"cutlichen",20},--摘下的苔藓 
+			-- {"wormlight",3},--虫子果 
+			-- {"lureplantbulb",1},--食人花种子 
+			-- {"flint",10},--燧石 
+			-- {"nitre",10},--硝石 
+			-- {"redgem",1},--红宝石 
+			-- {"bluegem",1},--蓝宝石 
+			-- {"purplegem",1},--紫宝石 
+			-- {"greengem",1},--绿宝石 
+			-- {"orangegem",1},--橙宝石 
+			-- {"yellowgem",1},--黄宝石 
+			-- -- {"rope",100},--绳子 
+			-- -- {"boards",460},--木板 
+			-- -- {"cutstone",130},--石砖 
+			-- -- {"transistor",},--机器原件
+			-- -- {"papyrus",},--纸 
+			-- {"houndstooth",2},--犬牙 
+			-- {"pigskin",3},--猪皮
+			-- {"manrabbit_tail",2},--兔人尾巴 
+			-- {"beardhair",5},--胡子 
+			-- {"beefalowool",6},--牛毛 
+			-- {"honeycomb",1},--蜂巢 
+			-- {"stinger",10},--蜂刺 
+			-- {"feather_crow",3},--乌鸦羽毛 
+			-- {"feather_robin",3},--红雀羽毛 
+			-- {"feather_robin_winter",2},--雪雀羽毛 
+			-- {"horn",1},--牛角 
+			-- {"slurtleslime",10},--蜗牛液 
+			-- {"slurtle_shellpieces",10},--蜗牛龟壳片 
+			-- {"butterflywings",3},--蝴蝶翅膀
+			-- {"glommerwings",1},--格罗门翅膀 
+			-- --{"glommerflower",},--格罗门花 
+			-- {"glommerfuel",1},--格罗门燃料 
+			-- -- {"boneshard",320},--硬骨头 
+			-- {"ice",20},--冰 
+			-- {"goldnugget",2},--金子
+			-- {"nightmarefuel",1},--噩梦燃料
+			-- {"moonrocknugget",1},--月之石
+			-- {"livinglog",1},--活木
+			-- {"monstermeat",5},--好吃不贵
+			-- {"spoiled_food",30},--腐烂食物 
+			-- {"monstermeat_dried",6},--干疯肉
+			-- {"red_cap",10},--采摘的红蘑菇 
+			-- {"red_cap_cooked",10},--煮熟的红蘑菇 
+			-- {"durian",5},--榴莲 
+			-- {"rottenegg",10},--烂鸡蛋 
+			-- {"durian_cooked",5},--熟榴莲 
+			-- {"poop",66},--便便 
+			-- {"guano",33},--鸟粪 
+			-- {"wathgrithrhat",1},--女武神帽	
+			-- {"boomerang",1},--回旋镖 
+			-- {"tentaclespike",1},--狼牙棒 
+			-- {"blowdart_pipe",1},--吹箭 
+			-- {"blowdart_sleep",1},--麻醉吹箭 
+			-- {"blowdart_fire",1},--燃烧吹箭 
+			-- {"hambat",1},--火腿短棍 
+			-- {"footballhat",1},--猪皮帽 
+			-- {"nightsword",1},--暗影剑 
+			-- {"batbat",1},--蝙蝠棒 
+			-- {"ruins_bat",1},--远古短棒 
+			-- {"spear_wathgrithr",1},--瓦丝格雷斯矛 
+			-- {"armormarble",1},--大理石盔甲 
+			-- {"armor_sanity",1},--夜魔盔甲 
+			-- {"armorsnurtleshell",1},--蜗牛龟盔甲 
+			-- {"armorruins",1},--远古盔甲 
+			-- {"ruinshat",1},--远古盔甲 
+			-- {"gunpowder",1},--火药 
+			-- {"heatrock",1},--保温石
+			-- {"strawhat",1},--草帽 
+			-- {"flowerhat",1},--花环 
+			-- {"beefalohat",1},--牛毛帽 
+			-- {"featherhat",1},--羽毛帽 
+			-- {"tophat",1},--高礼帽 
+			-- {"earmuffshat",1},--兔耳罩 
+			-- {"winterhat",1},--冬帽 
+			-- {"minerhat",1},--矿工帽 
+			-- {"spiderhat",1},--蜘蛛帽 
+			-- {"beehat",1},--蜂帽 
+			-- {"walrushat",1},--海象帽 
+			-- {"slurtlehat",1},--蜗牛帽子 
+			-- {"bushhat",1},--丛林帽 
+			-- {"rainhat",1},--防雨帽 
+			-- {"icehat",1},--冰帽 
+			-- {"watermelonhat",1},--西瓜帽 
+			-- {"catcoonhat",1},--浣熊帽 
+			-- {"sweatervest",1},--小巧背心 
+			-- {"trunkvest_summer",1},--夏日背心 
+			-- {"trunkvest_winter",1},--寒冬背心 
+			-- {"armorslurper",1},--饥饿腰带 
+			-- {"raincoat",1},--雨衣 
+			-- {"molehat",1},--鼹鼠帽 
+			-- {"armordragonfly",1},--蜻蜓盔甲 
+			-- {"beargervest",1},--熊背心 
+			-- {"eyebrellahat",1},--眼睛帽 
+			-- {"hawaiianshirt",1},--夏威夷衬衫 
+			-- -- [001] = {"amulet", 3},--复活护符
+			-- -- [002] = {"armorwood",2},
+					-- }

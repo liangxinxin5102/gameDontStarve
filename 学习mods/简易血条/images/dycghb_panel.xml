@@ -1,0 +1,12 @@
+<Atlas><Texture filename="dycghb_panel.tex" /><Elements>
+<Element name="dycghb_panel.tex" u1="0" u2="1" v1="0" v2="1" />
+<Element name="dycghb_panel_11.tex" u1="0.000000000" u2="0.341796875" v1="0.000000000" v2="0.283203125" />
+<Element name="dycghb_panel_12.tex" u1="0.341796875" u2="0.658203125" v1="0.000000000" v2="0.283203125" />
+<Element name="dycghb_panel_13.tex" u1="0.658203125" u2="1.000000000" v1="0.000000000" v2="0.283203125" />
+<Element name="dycghb_panel_21.tex" u1="0.000000000" u2="0.341796875" v1="0.283203125" v2="0.716796875" />
+<Element name="dycghb_panel_22.tex" u1="0.341796875" u2="0.658203125" v1="0.283203125" v2="0.716796875" />
+<Element name="dycghb_panel_23.tex" u1="0.658203125" u2="1.000000000" v1="0.283203125" v2="0.716796875" />
+<Element name="dycghb_panel_31.tex" u1="0.000000000" u2="0.341796875" v1="0.716796875" v2="1.000000000" />
+<Element name="dycghb_panel_32.tex" u1="0.341796875" u2="0.658203125" v1="0.716796875" v2="1.000000000" />
+<Element name="dycghb_panel_33.tex" u1="0.658203125" u2="1.000000000" v1="0.716796875" v2="1.000000000" />
+</Elements></Atlas>
