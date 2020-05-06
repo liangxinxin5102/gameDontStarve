@@ -1,0 +1,37 @@
+-- Example Non-Prefab Override Mod
+-- by WrathOf
+-- v0.6
+-- Updated for Revision 74452 2013-03-12_14-18-42 (A Little Rain Must Fall)
+-------------------------------------------------------------------------------
+-- Support thread here: 
+--
+--
+-- This mod provides a basic example of overriding the game's existing files
+-- other than the prefabs, either as a way of doing modding more easily or for
+-- cases where it is difficult to change the functionality in a GamePostInit,
+-- SimPostInit or ComponentPostInit callback function from a mod's modmain file.
+--
+-- In this example, we are overriding the rabbitbrain.lua file in order to
+-- change the distance settings used to control the rabbit's actions, the
+-- trap.lua in order to change the search radius used to find trappable
+-- creatures, and the SGrabbit.lua file in order to remove the scream sounds
+-- when it runs away or dies.
+--
+--
+-- To install this mod, put this file in a folder under
+-- "...\Steam\steamapps\common\dont_starve\mods" called "ExampleNonPrefabOverride",
+-- then open the "modsettings.lua" file in the mods folder and add the
+-- following but without the beginning "--":
+--
+--ModManager:AddMod("ExampleNonPrefabOverride")
+--
+-- When you run the game you should see a screen pop up that lists this mod as
+-- being loaded.
+--
+-------------------------------------------------------------------------------
+
+--This type of mod does not require anything here in order to run but we will
+--go ahead and add a print statement so it will showup in the log as being
+--loaded.  The log.txt file can ba found in the game's bin folder.
+
+print("Example Non-Prefab Override loaded.")

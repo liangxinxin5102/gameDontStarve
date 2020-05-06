@@ -1,0 +1,6 @@
+<Atlas>
+    <Texture filename="beer.tex"/>
+    <Elements>
+        <Element name="beer.tex" u1="0.00390625" u2="0.99609375" v1="0.00390625" v2="0.99609375"/>
+    </Elements>
+</Atlas>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Prefabs>
+  <Defs>
+    <Prefab name='marblepillar' pathname='forest/objects/marblepillar' file='.\data\scripts\prefabs\marblepillar.lua' desc='' >
+      <Assets>
+        <Asset  type='IMAGE' file='mods/ExampleAddPlacerMod/inventoryimages/marblepillar.tex' flags='0' />
+      </Assets>
+    </Prefab>
+  </Defs>
+</Prefabs>

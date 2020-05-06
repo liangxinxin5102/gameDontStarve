@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="shophud.tex" />
+	<Elements>
+		<Element name="background.tex" u1="0.001" u2="0.926734375" v2="0.999" v1="0.463890625" variant="" />
+		<Element name="choujiang.tex" u1="0.001" u2="0.2284921875" v2="0.461890625" v1="0.249046875" variant="" />
+		<Element name="cloth.tex" u1="0.001" u2="0.1562265625" v2="0.247046875" v1="0.21584375" variant="" />
+		<Element name="fight.tex" u1="0.2304921875" u2="0.38571875" v2="0.461890625" v1="0.4306875" variant="" />
+		<Element name="goodspos.tex" u1="0.2304921875" u2="0.76071875" v2="0.4286875" v1="0.0898671875" variant="" />
+		<Element name="guanbi.tex" u1="0.001" u2="0.0663828125" v2="0.21384375" v1="0.1484609375" variant="" />
+		<Element name="lastpage.tex" u1="0.001" u2="0.0409921875" v2="0.1464609375" v1="0.10646875" variant="" />
+		<Element name="nextpage.tex" u1="0.0683828125" u2="0.108375" v2="0.21384375" v1="0.174828125" variant="" />
+		<Element name="shangdian.tex" u1="0.0683828125" u2="0.16696875" v2="0.172828125" v1="0.0625234375" variant="" />
+		<Element name="shiwu.tex" u1="0.38771875" u2="0.5429453125" v2="0.461890625" v1="0.4306875" variant="" />
+		<Element name="ziyuan.tex" u1="0.001" u2="0.1562265625" v2="0.0605234375" v1="0.0293203125" variant="" />
+	</Elements>
+</Atlas>

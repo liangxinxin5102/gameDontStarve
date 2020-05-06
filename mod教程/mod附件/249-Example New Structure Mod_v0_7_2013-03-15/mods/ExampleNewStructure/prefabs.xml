@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Prefabs>
+  <Defs>
+    <Prefab name='leifstatue' pathname='common/objects/leifstatue' file='.\mods\ExampleNewStructure\scripts\prefabs\leifstatue.lua' desc='' >
+      <Assets>
+        <Asset  type='ANIM'  file='data/anim/winter_meter.zip' flags='0' />
+        <Asset  type='IMAGE' file='mods/ExampleNewStructure/inventoryimages/leifstatue.tex' flags='0' />
+      </Assets>
+    </Prefab>
+    <Prefab name='leifstatue_placer' pathname='common/leifstatue_placer' file='.\mods\ExampleNewStructure\scripts\prefabs\leifstatue.lua' desc='' >
+    </Prefab>
+  </Defs>
+  <Files>
+    <File name='prefabs/leifstatue.lua'/>
+  </Files>
+</Prefabs>
+
+

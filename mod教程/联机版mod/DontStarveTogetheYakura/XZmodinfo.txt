@@ -1,0 +1,40 @@
+逆神巫女——八重樱
+“舰长补给全保底，舰长副本零掉落”
+
+作者的话：出这个人物是为了丰富饥荒的战斗模式，并减轻把联机当单机玩的玩家的单挑BOSS的压力。
+八重樱对BOSS和集群的少血怪物极其强力,觉得太OP的请勿订阅。
+八重樱对BOSS和集群的少血怪物极其强力,觉得太OP的请勿订阅。
+八重樱对BOSS和集群的少血怪物极其强力,觉得太OP的请勿订阅。
+
+人物简介：
+通过复杂的机制触发绯樱印记造成伤害，自带专属武器——灵刀丶樱吹雪(34攻击力，无耐久)，能召唤使魔绯玉丸。
+
+1.普通攻击2次可给敌人上一层绯樱计数，绯樱计数达到三层时给敌人上绯樱印记。
+（简单来说普攻6次上一个绯樱印记）
+2.装备灵刀丶樱吹雪后，右键点击敌人可以发动一闪，瞬移到敌人身边并造成少量伤害（10点），如果一闪的敌人身上有绯樱印记则触发绯樱印记并造成其最大生命值10%的真实伤害。
+3.装备灵刀丶樱吹雪后，右键点击武器栏里的灵刀丶樱吹雪可以发动技能：绯炎地狱，对大范围敌人造成100点伤害并附加绯樱印记，进入无敌状态,持续10秒，无敌状态下每次一闪可以给敌人上一层绯樱计数（简单来说一闪三次触发一次印记）。
+4.武器技能的100点AOE伤害和触发绯樱印记的伤害在对付蜜蜂类生物时翻倍。
+
+绯玉丸：
+八重樱通过给绯玉丸喂食来获得不同能力：
+鼹鼠沙拉：获得鼹鼠视力1min。
+鳗鱼寿司：隐身30s。
+奈落炖锅（需开启娜娜奇MOD）：获得1天的感知效果。
+
+Yae Sakura
+Character from Homkai Impact 3rd.
+I make this mod to enrich the combat method of DST, and decrease the press when you facing the epic monser alone. Yae Sakura is very powerful when fight with epic. She is overpowered in some aspects.
+Sakura is very very very op when facing BOSS, if you think she deprive you of the joy of killing boss, please DO NOT subscribe to this mod.
+Sakura is very very very op when facing BOSS, if you think she deprive you of the joy of killing boss, please DO NOT subscribe to this mod.
+Sakura is very very very op when facing BOSS, if you think she deprive you of the joy of killing boss, please DO NOT subscribe to this mod.
+
+Character Introduction:
+1.Attack enemy 6 times will give it a sakura mark.
+2.Equipped with Sakura Sword, you can right-click on enemy to make a flash attack and deal little damage on it, if your make a flash attack on an enmey that has a sakura mark, you will remove the mark and deal 10% of the  emeny's max health damage.
+3.Equipped wish Sakura Sword, you can right-click on the Sakura Sword to use your skill: Sakura Hell. Deal 100 damage on enemy around you and give them sakura mark, become invincible for 10 seconds, when you are invincible your can deal 10% max health damage by make flash attack on an enemy 3 times.
+
+绯玉丸（I don't know how to translate this name）:
+Yae Sakura can get different ability by feeding 绯玉丸.
+Guacamole:Get mole sight for 1 min.
+Unagi: Be invisible for 30s.
+Nairobi stew(Speical food in Nanachi mod):Get ability to perceive speical things around her(last one day). 

@@ -1,0 +1,13 @@
+The contents of this folder are converted by the autocompiler. If you wish to do this manually using TEXTool instead, don't use the png provided, and export a new png from the tex first.
+
+V1.2.1
+After compiling names_[character].png, open names_[character].xml in a text editor.
+Change the Element name to "[character].tex". (Do not change the Texture filename)
+
+Example:
+<Atlas>
+	<Texture filename="names_esctemplate.tex" />
+	<Elements>
+		<Element name="esctemplate.tex" u1="0.00048828125" u2="0.85498046875" v1="0.1533203125" v2="0.9990234375" />
+	</Elements>
+</Atlas>

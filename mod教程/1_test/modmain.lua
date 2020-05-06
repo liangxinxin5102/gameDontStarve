@@ -1,0 +1,30 @@
+local require = GLOBAL.require
+local STRINGS = GLOBAL.STRINGS
+local Ingredient = GLOBAL.Ingredient
+local RECIPETABS = GLOBAL.RECIPETABS
+local Recipe = GLOBAL.Recipe
+local TECH = GLOBAL.TECH
+local TUNING = GLOBAL.TUNING
+local Player = GLOBAL.ThePlayer
+local TheNet = GLOBAL.TheNet
+local IsServer = GLOBAL.TheNet:GetIsServer()
+local TheInput = GLOBAL.TheInput
+local TimeEvent = GLOBAL.TimeEvent
+local FRAMES = GLOBAL.FRAMES
+local EQUIPSLOTS = GLOBAL.EQUIPSLOTS
+local EventHandler = GLOBAL.EventHandler
+local SpawnPrefab = GLOBAL.SpawnPrefab
+local State = GLOBAL.State
+local DEGREES = GLOBAL.DEGREES
+local Vector3 = GLOBAL.Vector3
+local ACTIONS = GLOBAL.ACTIONS
+local FOODTYPE = GLOBAL.FOODTYPE
+local PLAYERSTUNLOCK = GLOBAL.PLAYERSTUNLOCK
+local GetTime = GLOBAL.GetTime
+local HUMAN_MEAT_ENABLED = GLOBAL.HUMAN_MEAT_ENABLED
+local TheSim = GLOBAL.TheSim
+local ActionHandler = GLOBAL.ActionHandler
+PrefabsFiles = {
+    "beer"
+}
+Assets = {}
